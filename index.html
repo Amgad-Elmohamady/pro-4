@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="background-color: beige;">
+    
+    <div class="container py-4 text-center col-12">
+        <h1>Bookmarker</h1>
+        <hr style="border: 2px dotted ;">
+         <p class="sss">
+<i class="fa-solid fa-bookmark"></i>
+Bookmark you favrite sites
+<i class="fa-solid fa-bookmark"></i>
+         </p>
+    </div>
+
+<div class="container col-12">
+    <div class="forem-section">  
+<form>
+    <label class="form-label"> <i class="fa-solid fa-user-pen"></i>site name</label>
+    <input type=" text" id="pname" class="form-control" placeholder="Bookmarker">
+</form>
+    </div>
+    <div class="forem-section">  
+<form>
+    <label class="form-label"> <i class="fa-solid fa-link"></i>site name</label>
+    <input type=" email" id="url" class="form-control" placeholder="https://routeacadmy.githubio/Bookmark">
+</form>
+    </div>
+    <div id="bt" class="d-flex justify-content-center align-items-center py-4"><button onclick="sitex()" id="sud" type="button" class="btn btn-danger">submit</button>
+</div>
+<hr style="border: 2px dotted ">
+
+
+<table class="table text-center py-4 ">
+<thead class="table">
+<tr>
+      <th>Indix</th>
+    <th>    Website</th>
+    <th>Last</th>
+    <th>Handle</th>
+
+</tr>
+</thead>
+<tbody id="rowdata">
+    
+
+    
+
+</tbody>
+</table>
+
+
+
+
+    <script src="java/indix.js"  ></script>
+</body>
+</html>
